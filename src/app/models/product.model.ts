@@ -7,7 +7,7 @@ export interface Product {
 }
 
 export interface CartItem {
-    product: Product;  // Product es la interfaz que ya definiste para los productos
+    product: Product; 
     quantity: number;
 }
 
